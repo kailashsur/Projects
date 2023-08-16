@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment-style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="head-page">
+            <div class="head">Payment</div>
+
+            <div class="page">
+                <div class="details">
+                    <form action="">
+                        <h2>User Information</h2>
+                        <br>
+    
+                        <div>Name* :</div>
+                        <input type="text" class="name" name="user-name" id="user-name" placeholder="Kailash Sur">
+                        <br>
+    
+                        <fieldset class="gender">
+                            <legend class="genLegend">Gender</legend>
+                            <div>
+                                Male <input type="radio" id="male" name="gender">
+        
+                                Female <input type="radio" id="female" name="gender">
+    
+                                Other <input type="radio" id="other" name="gender">
+    
+                            </div>
+                        </fieldset>
+    
+                        <p>Adress :</p>
+                        <textarea class="adress" name="adress" id="adress" cols="30" rows="10" placeholder="Type Your Address Here"></textarea>
+                        <br><br>
+                        <div>Email : 
+                            <input type="email" class="email" id="email" name="email" placeholder="kailash@gmail.com">
+                        </div>
+    
+                        <div>Pincode :
+                            <input class="number" type="number"  placeholder="755008">
+                        </div>
+    
+                        <div>Payment Information</div>
+                        <label for="cards">Card Type</label>
+                        <select name="card" id="card">
+                            <option value="Visa">Visa</option>
+                            <option value="master">Master</option>
+                            <option value="rupay">Rupay</option>
+                        </select>
+    
+                        <div>Card Number : 
+                            <input type="number" class="card-number" id="cardnumber" name="cardnumber" placeholder="0000-0000-0000-0000">
+                        </div>
+                        <div>Expiration Date 
+                            <input type="date" class="exp-date" id="expdate" name="expdate">
+                        </div>
+                        <div>CVV
+                            <input type="number" id="cvv" name="cvv" placeholder="123">
+                        </div>
+
+                        <input type="submit" class="pay" value="Pay Now">
+                        
+                    </form>
+                    
+    
+    
+                </div>
+                <button type="button" class="back-button" >
+                    
+                    <a href="index.html" style="text-decoration:none; color:inherit;" >Go Back</a>
+                </button>
+    
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
